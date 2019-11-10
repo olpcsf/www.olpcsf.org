@@ -1,6 +1,34 @@
 
 # www.olpcsf.org
 
+_This is a work in progress._
+
+The website of olpc-sf.
+
+## Development
+
+### Requirements
+
+- [Ruby](https://www.ruby-lang.org/en/) 2.6
+- [Bundler](https://bundler.io)
+
+
+### Setup
+
+Install the Ruby dependencies.
+
+    $ bundle install
+
+Build the Jekyll site.
+
+    $ bundle exec jekyll build
+
+Serve the site locally.
+
+    $ bundle exec jekyll serve
+
+Open your web browser to [localhost:4000/www.olpcsf.org](http://localhost:4000/www.olpcsf.org/).
+
 
 ## Drupal 7 import
 
@@ -14,10 +42,6 @@ settings. These are found in your Drupal site's settings.php.
 Once you have your settings in `.env`, source the environment.
 
     $ source .env
-
-Open an SSH tunnel to the MySQL database.
-
-    $ ssh -L 3306:localhost:3306 www.olpcsf.org
 
 Run the import script.
 
