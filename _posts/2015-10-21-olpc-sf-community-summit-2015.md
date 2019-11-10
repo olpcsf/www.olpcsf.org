@@ -4,7 +4,7 @@ layout: blog
 title: OLPC-SF Community Summit 2015
 created: 1445442924
 ---
-<p>&nbsp;One Laptop Per Child San Francisco is hosting the annual&nbsp;<a href="http://www.olpcsf.org/summit">Community Summit</a> this weekend, October 23-25th 2015[1] at San Francisco State University, 1600 Holloway Avenue, Business Building room 202 in San Francisco, CA. You can register online through <a href="https://olpcsf-summit-2015.eventbrite.com/">eventbrite</a>.</p>
+<p>&nbsp;One Laptop Per Child San Francisco is hosting the annual&nbsp;<a href="{{ site.baseurl }}/summit">Community Summit</a> this weekend, October 23-25th 2015[1] at San Francisco State University, 1600 Holloway Avenue, Business Building room 202 in San Francisco, CA. You can register online through <a href="https://olpcsf-summit-2015.eventbrite.com/">eventbrite</a>.</p>
 <div>
 	&nbsp;</div>
 <div>

@@ -4,7 +4,7 @@ layout: blog
 title: A Virtual Virtual Library
 created: 1340647067
 ---
-<p>This is a virtual (as in digital) library, running inside a virtual machine. So, the title isn&#39;t a typo <img alt="smiley" height="20" src="http://olpcsf.org/sites/all/libraries/ckeditor/plugins/smiley/images/regular_smile.gif" title="smiley" width="20" /></p>
+<p>This is a virtual (as in digital) library, running inside a virtual machine. So, the title isn&#39;t a typo <img alt="smiley" height="20" src="{{ site.baseurl }}/sites/all/libraries/ckeditor/plugins/smiley/images/regular_smile.gif" title="smiley" width="20" /></p>
 <p>This is a joint effort between me and Alex Kleider, who helped me debug, test and document the endeavor (or endeavour, as Alex would put it). The documentation and virtual machine took shape, largely driven by our need to have the <a href="http://www.slideshare.net/sverma/pathagar-a-book-server" target="_blank">Pathagar Book Server</a> running on a <a href="https://www.globalscaletechnologies.com/t-dreamplugdetails.aspx" target="_blank">DreamPlug</a> for Madagascar. To that end, we sat down and installed Pathagar on a virtual machine and documented the steps. We used <a href="http://en.flossmanuals.net/e-book-enlightenment/the-pathagar-book-server/" target="_blank">James Simmons&#39; instructions</a> as a starting point. While the original Pathagar application was <a href="https://github.com/sayamindu/pathagar" target="_blank">written by Sayamindu Dasgupta and Kushal Das</a>, we used <a href="https://github.com/manuq/pathagar" target="_blank">Manuel Quinones&#39; version</a> that has some more tweaks and fixes.</p>
 <p>To get started:</p>
 <ol>

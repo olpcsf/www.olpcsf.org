@@ -33,7 +33,7 @@ created: 1356375417
 aria2c http://metated.petarmaric.com/metalinks/TED-talks-in-standard-quality.hi.metalink</pre>
 <p>&nbsp;</p>
 <p>After downloading these I got 1,368 items, totalling 9.8 GB. The XO plays Ogg Theora files natively in the Browse activity. So, I converted these to Ogg Theora format using <a href="http://v2v.cc/~j/ffmpeg2theora/" target="_blank">ffmpeg2theora</a>.</p>
-<p><em>Note: Before converting, it&#39;s a good idea to backup the folder of TED talks so that you have a copy and you don&#39;t have to re-download 10GB or so in case you botch the conversion </em><img alt="smiley" height="20" src="http://www.olpcsf.org/sites/all/libraries/ckeditor/plugins/smiley/images/regular_smile.gif" title="smiley" width="20" /></p>
+<p><em>Note: Before converting, it&#39;s a good idea to backup the folder of TED talks so that you have a copy and you don&#39;t have to re-download 10GB or so in case you botch the conversion </em><img alt="smiley" height="20" src="{{ site.baseurl }}/sites/all/libraries/ckeditor/plugins/smiley/images/regular_smile.gif" title="smiley" width="20" /></p>
 <p>To convert he MP4 files to Ogg Theora run at the command prompt:</p>
 <pre class="rteindent1">
 

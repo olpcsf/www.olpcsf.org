@@ -28,7 +28,10 @@ EOF
 
 # Some inline fixes...
 # Add baseurl to static assets
-sed -i -e 's!"/sites/default/files/!"{{ site.baseurl }}/sites/default/files/!g' **/*.md
+sed -i -E \
+  -e 's!"/sites/default/files/!"{{ site.baseurl }}/sites/default/files/!g' \
+  -e 's!https?://(www\.)?olpcsf.org/?!{{ site.baseurl }}/!g' \
+  **/*.md
 
 # Copy static assets
 mkdir -p sites/default/files

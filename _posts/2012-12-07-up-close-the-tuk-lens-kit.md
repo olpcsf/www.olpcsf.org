@@ -4,7 +4,7 @@ layout: blog
 title: 'Up Close: The Tuk Lens Kit'
 created: 1354952944
 ---
-<p>If you attended the recent <a href="http://olpcsf.org/CommunitySummit2012" target="_blank">OLPC San Francisco Community Summit 2012</a>, you must have received a packet with lenses and sticky foam along with your registration folder. Some of you also took a whole bunch more back with you. The lenses are <a href="http://www.olpcsf.org/node/54" target="_blank">acrylic cabochons</a>, courtesy of Bill Tuk.</p>
+<p>If you attended the recent <a href="{{ site.baseurl }}/CommunitySummit2012" target="_blank">OLPC San Francisco Community Summit 2012</a>, you must have received a packet with lenses and sticky foam along with your registration folder. Some of you also took a whole bunch more back with you. The lenses are <a href="{{ site.baseurl }}/node/54" target="_blank">acrylic cabochons</a>, courtesy of Bill Tuk.</p>
 <p><img alt="" src="{{ site.baseurl }}/sites/default/files/u8/dsc_0504.jpg" style="width: 373px; height: 575px;" /></p>
 <p><img alt="" src="{{ site.baseurl }}/sites/default/files/u8/dsc_0505.jpg" style="width: 550px; height: 310px;" /></p>
 <p>&nbsp;</p>

@@ -16,4 +16,4 @@ created: 1344366024
 	Mark your calendars!</p>
 <p>The web page will be fully active in a couple of weeks. We will be accepting proposals for topics and talks soon. Please start thinking of topics which you might like to work on.<br />
 	<br />
-	<a href="http://olpcsf.org/summit" target="_blank">http://olpcsf.org/<span class="il">summit</span></a></p>
+	<a href="{{ site.baseurl }}/summit" target="_blank">{{ site.baseurl }}/<span class="il">summit</span></a></p>
