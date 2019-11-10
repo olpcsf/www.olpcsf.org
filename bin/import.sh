@@ -27,11 +27,6 @@ JekyllImport::Importers::Drupal7.run({
 EOF
 
 
-# Some files are copied to the wrong location
-# https://github.com/jekyll/jekyll-import/issues/421
-cp --force --recursive --target-directory src blog node pathagar.md
-rm -rf blog node pathagar.md
-
 # Copy static assets
-mkdir -p src/sites/default/files
-rsync -av --exclude .htaccess "$HOSTNAME":/var/www/olpcsf/sites/default/files/ src/sites/default/files/
+mkdir -p sites/default/files
+rsync -av --exclude .htaccess "$HOSTNAME":/var/www/olpcsf/sites/default/files/ sites/default/files/

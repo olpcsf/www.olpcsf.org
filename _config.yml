@@ -3,6 +3,12 @@ title: OLPC San Francisco | one laptop per child san francisco volunteer communi
 description: >-
   One Laptop Per Child San Franciso is a volunteer community.
 
+url: "https://olpcsf.github.io"
 baseurl: "/www.olpcsf.org"
 
-source: src
+exclude:
+  - bin
+  - env.sample
+  - Gemfile
+  - Gemfile.lock
+  - README.md
