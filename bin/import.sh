@@ -23,6 +23,7 @@ JekyllImport::Importers::Drupal7.run({
   "user"     => "$DB_USER",
   "password" => "$DB_PASS",
   "host"     => "127.0.0.1",
+  "types"    => ["blog", "story", "article", "post", "project"],
 })
 EOF
 
