@@ -6,6 +6,7 @@ description: >-
 url: "https://olpcsf.github.io"
 baseurl: "/www.olpcsf.org"
 
+permalink: pretty
 exclude:
   - bin
   - env.sample
