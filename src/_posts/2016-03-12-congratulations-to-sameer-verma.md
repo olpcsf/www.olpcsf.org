@@ -2,6 +2,7 @@
 categories: []
 layout: blog
 title: Congratulations to Sameer Verma
+author: adborden
 created: 1457837755
 ---
 <p>&nbsp;Our own Sameer Verma has been elected for a two-year term on the <a href="https://wiki.sugarlabs.org/go/Oversight_Board" target="_blank">Sugar Labs Oversight Board</a>! He joins the board of 7 members governing the future of Sugar Labs.</p>
