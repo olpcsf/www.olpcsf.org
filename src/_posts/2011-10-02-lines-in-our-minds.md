@@ -1,0 +1,12 @@
+---
+categories: []
+layout: blog
+title: Lines in our minds
+created: 1317560555
+---
+<p>I was in Jamaica for a week, attending to my duties as External Examiner of the <a href="http://myspot.mona.uwi.edu/doms/cbmis-courses" target="_blank">MIS program</a> at the <a href="http://mona.uwi.edu/" target="_blank">University of the West Indies, Jamaica</a>. I also got a chance to work with our OLPC team that manages and supports the two pilot schools we have in <a href="http://olpcMAP.net/page?id=813006" target="_blank">August Town Primary School</a> and <a href="http://olpcMAP.net/page?id=810009" target="_blank">Providence Basic School</a>.</p>
+<p>I get ready to leave Jamaica and head back to San Francisco. The plane takes off and leaves the island of Jamaica shortly, heading over turquoise waters towards Cuba, making its way to Miami. No matter how hard you look, you can&#39;t see those dotted lines. You know, the ones on a map, that tell us how we are different from them, and how we can&#39;t go to certain places, and cannot do certain things. Boundaries. Lines that box us in. Create divisions and then push us to fight each other for everyday life while those in the sidelines sit back and watch their puppet shows.</p>
+<p>Lines do have a role though. They remind me of network diagrams. How we connect computers. Sources of information. Laptops and data centers. So, yes the lines need to be there to represent our thoughts, but I&#39;d prefer it if the lines connected the dots, and not divided the minds.</p>
+<p>What better day to kick off this blog on <a href="http://olpcsf.org" target="_blank">OLPC San Francisco</a> volunteer community than on <a href="http://en.wikipedia.org/wiki/Mohandas_Karamchand_Gandhi" target="_blank">Mohandas K. Gandhi</a>&#39;s birthday. A stubborn man who knew what he wanted and worked all his life to get it. He pushed people to spin their own thread. Weave their own clothes. Create a homespun fabric called <a href="http://en.wikipedia.org/wiki/Khadi" target="_blank">Khadi</a>, that collectively works to challenge the establishment. Sound familiar? Its a lot like <a href="http://en.wikipedia.org/wiki/Free_software" target="_blank">Free Software</a>, and related efforts to enable the masses at one level or the other, so that they are empowered to solve their own problems.</p>
+<p>So, happy birthday Mr. Gandhi. May your ideas live long and prosper.</p>
+<p><img alt="" src="/sites/default/files/u8/gandhi-peace-children.png" style="width: 640px; height: 779px;" /></p>

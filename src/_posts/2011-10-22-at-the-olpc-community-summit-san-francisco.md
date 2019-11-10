@@ -1,0 +1,9 @@
+---
+categories: []
+layout: blog
+title: At the OLPC Community Summit San Francisco
+created: 1319311941
+---
+<p class="rteleft"><a href="http://www.olpcsf.org">The OLPC Community Summit</a>&nbsp;started off Friday night with a Greet and Meet at <a href="http://sfsu.edu">San Francisco State University&#39;s</a>&nbsp;Downtown &nbsp;Campus. The attendees gathered from numerous countries including the US, Haiti, Philipines, Belgium, France and more! Carol Silver, who leads the Afghanistan project, welcomed all the attendees and shares with them the Proclamation that October 22nd as One Laptop Per Child Day in San Francsico! In addition to that, Sameer Verma was recognized as the force and leader behind the efforts of the OLPC SF and the resulting Community Summit. Photos of Friday night are found here&nbsp;<a class="hash" href="http://on.fb.me/oSESsk" style="padding: 0px; margin: 0px; text-decoration: underline; color: rgb(153, 153, 153); outline-width: 0px; font-family: 'Trebuchet MS','Helvetica Neue',Arial,sans-serif; font-weight: bold; font-style: italic;" title="http://on.fb.me/oSESsk">on.fb.me/oSESsk</a></p>
+<p>The actual conference started on a gorgeous October Saturday. Three tracks were held consisting of Education, Technology and Outreach. Some of the sessions were about<em> Lesson Plans, Recent Developments in OLPC/Sugar, How to Volunteer in Haiti Community School, Start Up Resources</em> and so much more. Along the walls hung colorful posters as part of a contest to share visually the various projects attendees are involved in. Videographers were also busy interviewing &nbsp;folks about their involvement in OLPC&#39;s mission to provide laptops globally to children regardless of their economic situation. It was a true gathering of like minded folks with a mission to change the world for the better one laptop at a time.&nbsp;</p>
+<p>&nbsp;</p>
