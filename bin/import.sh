@@ -34,6 +34,9 @@ sed -i -E \
   -e 's!https?://(www\.)?olpcsf.org/?!{{ site.baseurl }}/!g' \
   **/*.md
 
+# Apply some manual fixes via patches
+cat _patches/*.patch | patch -p1
+
 # Copy static assets
 mkdir -p sites/default/files sites/all/themes/responsive_bartik
 rsync -av --exclude .htaccess "$HOSTNAME":/var/www/olpcsf/sites/default/files/ sites/default/files/
