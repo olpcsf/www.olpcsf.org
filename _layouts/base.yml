@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"
+
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="cleartype" content="on" />
+  <title>{{ page.title | escape }} | OLPC San Francisco</title>
+<style type="text/css" media="all">
+@import url("{{ site.baseurl }}/sites/all/themes/responsive_bartik/css/layout.css");
+@import url("{{ site.baseurl }}/sites/all/themes/responsive_bartik/css/style.css");
+@import url("{{ site.baseurl }}/sites/all/themes/responsive_bartik/css/colors.css");
+</style>
+<style type="text/css" media="print">
+@import url("{{ site.baseurl }}/sites/all/themes/responsive_bartik/css/print.css");
+</style>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page-wrapper"><div id="page">
+
+  <header id="header" role="banner" class="without-secondary-menu"><div class="section clearfix">
+        
+    
+    
+          <div id="name-and-slogan">
+
+                              <div id="site-name">
+              <strong>
+                <a href="{{ site.baseurl }}/" title="Home" rel="home"><span>OLPC San Francisco</span></a>
+              </strong>
+            </div>
+                  
+                  <div id="site-slogan">
+            one laptop per child san francisco volunteer community          </div>
+        
+      </div> <!-- /#name-and-slogan -->
+    
+    
+          <nav id="main-menu" role="navigation" class="navigation">
+        <h2 class="element-invisible">Main menu</h2><ul id="main-menu-links" class="links clearfix"><li class="menu-207 first"><a href="{{ site.baseurl }}/">Home</a></li>
+<li class="menu-631"><a href="{{ site.baseurl }}/blog" title="OLPC San Francisco blog">Blog</a></li>
+<li class="menu-281"><a href="{{ site.baseurl }}/projects">Projects</a></li>
+<li class="menu-636"><a href="{{ site.baseurl }}/archive">Archive</a></li>
+<li class="menu-280 last"><a href="{{ site.baseurl }}/contact">Contact</a></li>
+</ul>      </nav> <!-- /#main-menu -->
+      </div></header> <!-- /.section, /#header -->
+
+  
+  
+  <div id="main-wrapper" class="clearfix"><div id="main" role="main" class="clearfix">
+
+    <h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="{{ site.baseurl }}/">Home</a> » <a href="{{ site.baseurl }}/blog">Blogs</a> » <a href="{{ site.baseurl }}/blog/8">sverma&#039;s blog</a></div>
+    <div id="content" class="column"><div class="section">
+      <a id="main-content"></a>
+      {{ content }}
+
+    </div></div> <!-- /.section, /#content -->
+
+        
+          <div id="sidebar-second" class="column sidebar"><div class="section">
+          <div class="region region-sidebar-second">
+    <div id="block-block-4" class="block block-block">
+
+    <h2>Next Meeting</h2>
+  
+  <div class="content">
+    <p>OLPC-SF generally meets the second Saturday of every month.</p>
+<h3>
+	When</h3>
+<p class="rteindent1">Saturday April 13, 2019</p>
+<p class="rteindent1">10am - 1pm</p>
+<h3>
+	Where</h3>
+<p class="rteindent1">Downtown SFSU campus</p>
+<p class="rteindent1">835 Market Street</p>
+<p class="rteindent1">San Francisco 94103</p>
+<p class="rteindent1">6th floor, DTC 610</p>
+  </div>
+</div>
+<div id="block-blog-recent" class="block block-blog">
+
+    <h2>Recent blog posts</h2>
+  
+  <div class="content">
+    <div class="item-list"><ul><li class="first"><a href="/node/266" class="active">Ethiopia project: An update</a></li>
+<li><a href="/node/265">Community Summit = Open Hack 2018</a></li>
+<li class="last"><a href="/node/264">Community Summit 2018</a></li>
+</ul></div><div class="more-link"><a href="/blog" title="Read the latest blog entries.">More</a></div>  </div>
+</div>
+<div id="block-block-7" class="block block-block">
+
+    <h2>Contact us</h2>
+  
+  <div class="content">
+    <p><strong>Want to know more about the summit?</strong></p>
+<ul><li>
+		<a href="mailto:contact@olpcsf.org">Email</a></li>
+<li>
+		<a href="https://www.facebook.com/groups/olpcsf/">Facebook</a></li>
+<li>
+		<a href="http://twitter.com/olpcsf">Twitter</a></li>
+</ul>  </div>
+</div>
+  </div>
+      </div></div> <!-- /.section, /#sidebar-second -->
+    
+  </div></div> <!-- /#main, /#main-wrapper -->
+
+  
+  <div id="footer-wrapper"><div class="section">
+
+    
+    
+  </div></div> <!-- /.section, /#footer-wrapper -->
+
+</div></div> <!-- /#page, /#page-wrapper -->
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+da2a.targets=[
+{title:"Ethiopia project: An update",url:"https:\/\/www.olpcsf.org\/node\/266"}];
+da2a.html_done=true;if(da2a.script_ready&&!da2a.done)da2a.init();da2a.script_load();
+//--><!]]>
+</script>
+</body>
+</html>

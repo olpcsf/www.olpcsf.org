@@ -34,5 +34,6 @@ sed -i -E \
   **/*.md
 
 # Copy static assets
-mkdir -p sites/default/files
+mkdir -p sites/default/files sites/all/themes/responsive_bartik
 rsync -av --exclude .htaccess "$HOSTNAME":/var/www/olpcsf/sites/default/files/ sites/default/files/
+rsync -av "$HOSTNAME":/var/www/olpcsf/sites/all/themes/responsive_bartik/ sites/all/themes/responsive_bartik/
