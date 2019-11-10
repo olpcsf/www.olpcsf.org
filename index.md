@@ -1,4 +1,5 @@
 ---
+layout: home
 ---
 
 <img src="https://www.olpcsf.org/sites/default/files/images/olpcsf_title.png"
