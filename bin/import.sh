@@ -26,6 +26,9 @@ JekyllImport::Importers::Drupal7.run({
 })
 EOF
 
+# Some inline fixes...
+# Add baseurl to static assets
+sed -i -e 's!"/sites/default/files/!"{{ site.baseurl }}/sites/default/files/!g' **/*.md
 
 # Copy static assets
 mkdir -p sites/default/files

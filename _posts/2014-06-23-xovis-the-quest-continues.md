@@ -13,7 +13,7 @@ created: 1403513895
 	Visualization is an important stage in the reporting process, although by itself, it may lead to incomplete assessments. Visualization tends to be used with aggregates, that is the aggregate behavior of a classroom , school or a collection of schools. So, for instance, we may be interested in seeing how a group of children use Sugar activities during school hours versus outside of school hours (for those fortunate deployments where the laptop goes home).<br />
 	<br />
 	The data flow is from the laptop&#39;s <a href="http://wiki.laptop.org/go/Journal_Activity" target="_blank">Journal</a>, to an <a href="http://wiki.laptop.org/go/Ds-backup" target="_blank">automated Journal backup</a> set on the School Server (<a href="http://wiki.laptop.org/go/School_server" target="_blank">XS</a> or <a href="http://wiki.laptop.org/go/XS_Community_Edition" target="_blank">XSCE</a>), to the extraction of metadata, to aggregate analysis and finally visualization. There are several ways to do this, but we chose to look at a three-tier architecture: The laptop&#39;s Journal, The School Server and the hypothetical Ministry of Education or NGO central cloud service. Metadata flows from XO to XS[CE] via automated rsync backups. Metadata flows from XS[CE] to the Ministry/NGO central server through a mechanism explained below.</p>
-<p><img alt="XOVis architecture" src="/sites/default/files/u8/xovis-analytics-visualization-sugar-olpc-architecture.png" style="width: 800px; height: 600px; border-width: 1px; border-style: solid;" /></p>
+<p><img alt="XOVis architecture" src="{{ site.baseurl }}/sites/default/files/u8/xovis-analytics-visualization-sugar-olpc-architecture.png" style="width: 800px; height: 600px; border-width: 1px; border-style: solid;" /></p>
 <p>At this point, I must specify that the XOVis application was written by <a href="https://github.com/martasd" target="_blank">Martin Dluhos</a>, while he was working at <a href="http://olenepal.org" target="_blank">OLE Nepal</a>, while I helped with the overall architecture, based on my experiences in <a href="http://olpcjamaica.org.jm" target="_blank">Jamaica</a> and <a href="http://bhagmalpur.wordpress.com" target="_blank">India</a>, and <a href="http://www.andreasgros.net/visualizations/" target="_blank">Andi Gros</a> helped with the visualization front-end. The work that Martin did is thankfully built on top of what <a href="https://github.com/rgs1" target="_blank">Ra&uacute;l Guti&eacute;rrez Segal&eacute;s</a> and <a href="https://github.com/Leotis" target="_blank">Leotis Buchanan</a> did earlier in Paraguay and Jamaica respectively. We also involved input from <a href="https://github.com/tchx84" target="_blank">Martin Abente Lahaye</a> about Australia&#39;s <a href="https://github.com/tchx84/harvest-server" target="_blank">Harvest</a> system, and <a href="https://github.com/m-anish" target="_blank">Anish Mangal</a> about <a href="http://wiki.sugarlabs.org/go/Platform_Team/Usage_Statistics" target="_blank">sugar-stats</a>, and were mindful to create an architecture that can accommodate both systems (these other systems will need some coding labor, of course).<br />
 	<br />
 	Resuming the explanation, one of the key issues was to deal with the problem of offline and intermittent connectivity to School Servers. We needed a glue that connected the School Server to a central location, and would be resilient to pick up sync where it left off, and do so without human intervention (very much like rsync). Then we would need an engine to aggregate the data across different cross comparisons - averages and comparisons of usage by day, by month, by year, etc. This is where CouchDB magic comes in. CouchDB can:</p>
@@ -30,7 +30,7 @@ created: 1403513895
 		Make coffee while running all of the above (ok, so that&#39;s not true)</li>
 </ol>
 <p>Could we use CouchDB to address all these needs? Yes! So, we used CouchDB to do #1, #2, #3, and #4. For #5, you are on your own :-)</p>
-<p><img alt="" src="/sites/default/files/u8/xovis-analytics-visualization-sugar-olpc-couchdb.png" style="width: 800px; height: 600px; border-width: 1px; border-style: solid;" /></p>
+<p><img alt="" src="{{ site.baseurl }}/sites/default/files/u8/xovis-analytics-visualization-sugar-olpc-couchdb.png" style="width: 800px; height: 600px; border-width: 1px; border-style: solid;" /></p>
 <p>&nbsp;</p>
 <p>So, this is somewhat how it goes. You can head over to GitHub (<a href="https://github.com/martasd/xovis" target="_blank">https://github.com/martasd/xovis</a>) and grab the code. If using a XS (I haven&#39;t tested yet) I&#39;d recommend that you install by hand, using the</p>
 <pre class="rteindent1">
@@ -45,7 +45,7 @@ ansible-playbook -i ansible_hosts xsce.yml --connection=local --tags=&quot;xovis
 <pre class="rteindent1">
 /library/users</pre>
 <p>If you have registered XOs with this School Server, the backups will start to happen automatically (takes 30 minutes or so). If you have user backups, then you can run the <em>process_journal_stats.py</em> script to do a bunch of things.</p>
-<p><img alt="" src="/sites/default/files/u8/xovis-analytics-visualization-sugar-olpc-dfd.png" style="width: 800px; height: 600px; border-width: 1px; border-style: solid;" /></p>
+<p><img alt="" src="{{ site.baseurl }}/sites/default/files/u8/xovis-analytics-visualization-sugar-olpc-dfd.png" style="width: 800px; height: 600px; border-width: 1px; border-style: solid;" /></p>
 <p>&nbsp;</p>
 <pre class="rteindent1">
 process_journal_stats.py all </pre>
@@ -60,11 +60,11 @@ process_journal_stats.py dbinsert xovis --deployment &lt;deployment-name&gt; --s
 <pre class="rteindent1">
 http://schoolserver:5984/&lt;deployment-name&gt;/_design/xovis-couchapp/index.html</pre>
 <p>Pick your deployment from the dropdown and click on a button to check out the visualization!</p>
-<p><img alt="Frequency of use" src="/sites/default/files/u8/xovis-analytics-visualization-sugar-olpc-activity-freq.png" style="width: 800px; height: 600px; border-width: 1px; border-style: solid;" /></p>
+<p><img alt="Frequency of use" src="{{ site.baseurl }}/sites/default/files/u8/xovis-analytics-visualization-sugar-olpc-activity-freq.png" style="width: 800px; height: 600px; border-width: 1px; border-style: solid;" /></p>
 <p>Frequency of use</p>
 <p>&nbsp;</p>
-<p><img alt="Activities tracked by month" src="/sites/default/files/u8/xovis-analytics-visualization-sugar-olpc-activity-year.png" style="width: 800px; height: 600px; border-width: 1px; border-style: solid;" /></p>
+<p><img alt="Activities tracked by month" src="{{ site.baseurl }}/sites/default/files/u8/xovis-analytics-visualization-sugar-olpc-activity-year.png" style="width: 800px; height: 600px; border-width: 1px; border-style: solid;" /></p>
 <p>Activities by month</p>
 <p>&nbsp;</p>
-<p><img alt="Activities by time of day" src="/sites/default/files/u8/xovis-analytics-visualization-sugar-olpc-time-of-day.png" style="width: 800px; height: 600px; border-width: 1px; border-style: solid;" /></p>
+<p><img alt="Activities by time of day" src="{{ site.baseurl }}/sites/default/files/u8/xovis-analytics-visualization-sugar-olpc-time-of-day.png" style="width: 800px; height: 600px; border-width: 1px; border-style: solid;" /></p>
 <p>Activities by time of day</p>

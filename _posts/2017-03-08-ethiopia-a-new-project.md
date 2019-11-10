@@ -20,4 +20,4 @@ created: 1489032204
 	<span class="text_exposed_show">- Project working time<br />
 	<br />
 	Our meetings are held on the second Saturday of every month. Everyone is welcome to join us for our monthly meeting! We&#39;ll be discussing the latest in OLPC events and give updates on our local (and global) projects. There will be plenty of XO laptops with the latest builds to play around with, too.</span></span></p>
-<p><img alt="" src="/sites/default/files/u8/IMG_20161210_105552.jpg" style="width: 639px; height: 473px;" /></p>
+<p><img alt="" src="{{ site.baseurl }}/sites/default/files/u8/IMG_20161210_105552.jpg" style="width: 639px; height: 473px;" /></p>

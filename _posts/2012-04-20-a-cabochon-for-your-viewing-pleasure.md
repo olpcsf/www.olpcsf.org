@@ -9,10 +9,10 @@ created: 1334939289
 <p>A big &#39;<em>Thank you!</em>&quot; to Bill Tuk for that tip. I&#39;ve looked at and used cabochons for a while now but I didn&#39;t know what these were called. But Bill deserves a bigger &quot;<em>Thank you!</em>&quot; for bringing a bag full of plastic (acrylic?) cabochons to a meeting a while ago. Place the hemispherical cabochon on the XO camera and hold it in place with tape and you have a nice convex magnifier! Of course, Bill tells me (and Mike Lee) that a drop of water works well too. Saliva isn&#39;t very clear, so stick with water <img alt="smiley" height="20" src="http://olpcsf.org/sites/all/libraries/ckeditor/plugins/smiley/images/regular_smile.gif" title="smiley" width="20" /></p>
 <p>Here are some photos from Bill. I am thrilled his tips have made it to the <a href="http://olpclearningclub.org/activities/a-water-drop-microscope-for-the-xo-laptop/" target="_blank">OLPC Learning Club</a> and <a href="http://edu.laptop.org.au/sites/default/files/education_newsletter_ed_12_april_2012.pdf" target="_blank">OLPC Australia</a>!</p>
 <p>&nbsp;</p>
-<p><img alt="" src="/sites/default/files/u8/XO%20Camera%20Close%20up%20IMG_2468-vi.jpg" style="width: 640px; height: 480px;" /></p>
+<p><img alt="" src="{{ site.baseurl }}/sites/default/files/u8/XO%20Camera%20Close%20up%20IMG_2468-vi.jpg" style="width: 640px; height: 480px;" /></p>
 <p>&nbsp;</p>
-<p><img alt="" src="/sites/default/files/u8/Needle%20and%20thread_0.jpg" style="width: 640px; height: 480px;" /></p>
+<p><img alt="" src="{{ site.baseurl }}/sites/default/files/u8/Needle%20and%20thread_0.jpg" style="width: 640px; height: 480px;" /></p>
 <p>&nbsp;</p>
-<p><img alt="" src="/sites/default/files/u8/Security%20print%20on%20a%2020.jpg" style="width: 640px; height: 480px;" />&nbsp;</p>
+<p><img alt="" src="{{ site.baseurl }}/sites/default/files/u8/Security%20print%20on%20a%2020.jpg" style="width: 640px; height: 480px;" />&nbsp;</p>
 <p>&nbsp;</p>
-<p><img alt="" src="/sites/default/files/u8/Fine%20Print%20life%20size%20about%20thickness%20of%20a%20thumb%20nail.jpg" style="width: 640px; height: 480px;" /></p>
+<p><img alt="" src="{{ site.baseurl }}/sites/default/files/u8/Fine%20Print%20life%20size%20about%20thickness%20of%20a%20thumb%20nail.jpg" style="width: 640px; height: 480px;" /></p>

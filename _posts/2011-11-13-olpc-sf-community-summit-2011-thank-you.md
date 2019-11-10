@@ -61,6 +61,6 @@ created: 1321223493
 	Sameer</p>
 <div class="yj6qo ajU">
 	<div class="ajR" data-tooltip="Show trimmed content" id=":2g2" role="button" tabindex="0">
-		<img alt="" src="/sites/default/files/u8/IMG_9983.jpg" style="width: 640px; height: 960px;" /></div>
+		<img alt="" src="{{ site.baseurl }}/sites/default/files/u8/IMG_9983.jpg" style="width: 640px; height: 960px;" /></div>
 </div>
 <p>&nbsp;</p>

@@ -47,4 +47,4 @@ find &lt;path-to-mp4-downloads&gt; -name *.mp4 -exec rm {} \;</pre>
 <p>&nbsp;</p>
 <p>I did not find a discernible difference in changing the videoquality parameter from 6 to 10, although the file size did grow. So, I left the videoquality at 6. Alternatively, you can install the codec needed to play back H.264 video and AAC audio, which is what the TED Talks are encoded as.</p>
 <p>So, I&#39;m walking around with a 16GB USB stick with all the TED talks. They play well on the XO-1. Pretty sweet!</p>
-<p><img alt="" src="/sites/default/files/u8/20121224_093559.jpg" style="width: 550px; height: 413px;" /></p>
+<p><img alt="" src="{{ site.baseurl }}/sites/default/files/u8/20121224_093559.jpg" style="width: 550px; height: 413px;" /></p>
